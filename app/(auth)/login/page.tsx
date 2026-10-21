@@ -1,3 +1,5 @@
+"use client";
+
 import { Button, Input } from "@nextui-org/react";
 import Link from "next/link";
 
@@ -24,7 +26,7 @@ export default function LoginPage() {
       </div>
 
       <div className="flex flex-col items-center gap-2">
-        <Button color="primary">Registrarse</Button>
+        <Button color="primary">Iniciar sesión</Button>
 
         <p>
           ¿No tienes cuenta?{" "}
