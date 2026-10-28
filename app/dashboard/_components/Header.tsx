@@ -1,8 +1,15 @@
+import Image from "next/image";
+
 export default function Header() {
   return (
-    <header className="flex h-14 items-center justify-between bg-orange-500 px-6 text-white shadow">
-      <span className="text-lg font-semibold">Ocso</span>
-      <span className="text-sm">Administración</span>
-    </header>
+    <div className="w-screen h-[10vh] bg-orange-200 flex flex-row items-center px-10">
+      <Image
+        src="Oxxo_Logo.svg"
+        width={100}
+        height={0}
+        alt="Ocso Logo"
+        draggable={false}
+      />
+    </div>
   );
 }

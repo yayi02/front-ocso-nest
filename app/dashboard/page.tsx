@@ -1,8 +1,12 @@
 export default function DashboardPage() {
   return (
-    <div>
-      <h1 className="text-2xl font-semibold text-orange-600">Dashboard</h1>
-      <p className="mt-2 text-gray-700">Bienvenido al panel de administración de Ocso.</p>
-    </div>
+    <>
+      <div className="h-full w-1/2 bg-red-100">
+        <p>Hola soy seccion 1</p>
+      </div>
+      <div className="h-full w-2/6 bg-red-100">
+        <p>Hola soy seccion 2</p>
+      </div>
+    </>
   );
 }
