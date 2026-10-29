@@ -33,7 +33,11 @@ const LocationsPage = async ({searchParams}: {
     <div className="w-8/12">
       <div className="w-full flex flex-col items-center h-[90vh] bg-red-50">
         <div className="w-1/2 my-10">
-          <SelectLocation locations={data} store={searchParams?.store}/>
+          <SelectLocation locations={data} store={searchParams.store}/>
+        </div>
+        <div>
+          <div className="w-8/12" />
+          <LocationCard store={searchParams.store}/>
         </div>
       </div>
     </div>

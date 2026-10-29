@@ -1,5 +1,5 @@
-'use client'
+'use client';
 
-export default function ErrorCount() {
-  return 'Error al cargar tiendas'
+export default function ErrorMainDashboard() {
+  return 'Ocurrió un error';
 }
